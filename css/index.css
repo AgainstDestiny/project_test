@@ -1,0 +1,169 @@
+.common {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  font-size: 14px;
+  line-height: 41px;
+  color: #ffffff;
+}
+.center,
+.common {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.header {
+  position: relative;
+  height: 41px;
+  background-color: #333;
+}
+.header ul {
+  display: flex;
+}
+.header ul li {
+  margin-right: 43px;
+}
+.header ul li:last-child {
+  margin-right: 0;
+}
+.header ul li a {
+  color: #ffffff;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 101px;
+}
+.nav .guide {
+  height: 101px;
+  font-size: 17px;
+  line-height: 101px;
+}
+.nav .guide a {
+  color: #3b3b3b;
+  padding-bottom: 7px;
+}
+.nav .guide a:hover {
+  color: #9dcb2a;
+  border-bottom: 3px solid #9dcb2a;
+}
+.nav .guide li {
+  margin-right: 43px;
+}
+.nav .guide li:last-child {
+  margin-right: 0;
+}
+.nav .logo img {
+  vertical-align: middle;
+}
+.banner {
+  height: 600px;
+  background: url(../assets/banner.png) no-repeat top center;
+}
+.ads {
+  height: 291px;
+}
+.ads .show {
+  height: 291px;
+}
+.ads .show .icon li {
+  padding: 0 15px 0 19px;
+  border-left: 3px solid #fff;
+  border-right: 3px solid #666;
+  text-align: center;
+}
+.ads .show .icon li:first-child {
+  padding-left: 0;
+  border-left: none;
+}
+.ads .show .icon li:last-child {
+  padding-right: 0;
+  border-right: none;
+}
+.ads .show .icon li:nth-child(2) .content {
+  width: 201px;
+  height: 55px;
+}
+.ads .show .icon img {
+  margin-top: 29px;
+}
+.ads .show .icon .intro {
+  font-size: 20px;
+  color: #3b3b3b;
+}
+.ads .show .icon .content {
+  color: #666;
+  font-size: 14px;
+  width: 206px;
+  line-height: 20px;
+  text-indent: 15px;
+}
+.hotline {
+  background-color: #f2f2f2;
+  height: 117px;
+  text-align: center;
+  padding: 31px 0 0 0;
+}
+.hotline h3 {
+  font-size: 25px;
+}
+.hotline p {
+  color: #515151;
+  margin-top: 10px;
+}
+.download {
+  height: 684px;
+  background-color: #69ae5b;
+}
+.download .middle {
+  padding: 52px 0 0 0;
+  height: 684px;
+}
+.download .middle .right {
+  width: 396px;
+  height: 197px;
+  padding-right: 67px;
+  font-size: 36px;
+  line-height: 50px;
+  font-weight: normal;
+}
+.download .middle .btn {
+  margin-top: 36px;
+  width: 338px;
+  height: 75px;
+  background-color: #509b40;
+  border: solid 1px #ffffff;
+  border-radius: 10px;
+}
+.download .middle .btn div {
+  margin-top: 11px;
+  margin-left: 81px;
+}
+.download .middle .btn div img {
+  vertical-align: middle;
+}
+.download .middle .btn div a {
+  margin-left: 18px;
+  color: #fff;
+}
+.download .bottom ul {
+  margin-top: 426px;
+  color: #fff;
+}
+.download .bottom li {
+  display: flex;
+  flex-direction: column;
+  width: 214px;
+  height: 214px;
+  background: url(../assets/r1.png) no-repeat top right;
+}
+.download .bottom li:not(:last-child) {
+  margin-right: 27px;
+  text-align: center;
+}
+.download .bottom li .text {
+  width: 130px;
+  line-height: 20px;
+  margin-left: 50px;
+}
+/*# sourceMappingURL=./index.css.map */
